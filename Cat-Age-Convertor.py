@@ -39,7 +39,7 @@ elif(option == "B" or option == "b"):
     else:
         print(f"Invalid Cat Age!")
     exit()
-# Output for option C:
+# Output for option C
 elif(option == "C" or option == "c"):
     print(f"Option C selected")
     print()
