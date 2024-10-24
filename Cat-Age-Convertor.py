@@ -42,8 +42,10 @@ elif(option == "B" or option == "b"):
 # Output for option C
 elif(option == "C" or option == "c"):
     print(f"Option C selected")
-    print()
-    print(f"Cat-age calculators estimate a cat’s age in human years, accounting for their faster aging in early years. Different calculators use varying formulas, so results may differ slightly. This is because cat aging doesn’t follow a strict human-equivalent timeline.")
+    print() # blank line to make it easier to read
+    print(f"Cat-age calculators estimate a cat’s age in human years, accounting for their faster aging in early years.")
+    print(f"Different calculators use varying formulas, so results may differ slightly.")
+    print(f"This is because cat aging doesn’t follow a strict human-equivalent timeline.")
     print()
     print(f"International Cat Care website link: https://icatcare.org/advice/how-to-tell-your-cats-age-in-human-years/")
     print()
@@ -52,4 +54,8 @@ elif(option == "C" or option == "c"):
 # Exiting the progam
 elif(option == "X" or option == "x"):
     print(f"Thank you and goodbye...")
+    exit()
+# Invalid option
+else:
+    print(f"Invalid option.")
     exit()
